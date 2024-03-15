@@ -1,0 +1,78 @@
+const squareRoot = num => Math.sqrt(num);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+orange - 46,27,95,63,73,81,3,31,57,20,13,38,2,39,50,96,85,17,26,50,13,72,97,13,20,93,22,18,15,22,22,65,44,23,61,36,24,16,37,70,80,35,15,0,47,5,62,4,22,71,46,49,91,67
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+grape * 42,55,56,11,13,11,55,50,41,49,66,0,5,25,70,27,93,84,38,72,94,7,74,40,74,24,17,4,69,66,53,99,91,0,82,64,73,80,59,51,91,30,50,47,39,21,54,44,73,69,29,77,22,44,96,62,82,50,91,97,22,65,66,5,17,86,88,67,11,29,33,5,34,63,4,59,90,78,53,43,75,43,39,36,40,1
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+kiwi
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+apple
+
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+false + false
+class MyClass { constructor() { this.property = getRandomString(); } }
+const findSmallestNumber = numbers => Math.min(...numbers);
+false + apple
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const getRandomElement = array => array[getRandomIndex(array)];
+32 + 46,72,22,20,37,35,91,91,23,82,53,2,47,75,65,68,40,82,60,62,76,1,37,48,79,67,64,22,47,38,31,69,31,52,17,48,80,4,97,29,73,99,36,8,87,0,12,17,7,11,91,51,32
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const squareRoot = num => Math.sqrt(num);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+56,93,13,91,6,88,53,90,77,45,45,27,56,94 / orange
+// This is a comment
+58,94,69,15,99,60,68,43,14,20,48,78,18,6,71,86,22,60,19,66,70,79,37,64,60,40,3,47,13,66,68,87,37,11,44,75,1,53,11,23,8,83,49,21,50,1,64,23,6,17,87,51,17,57,99,41,25,18,11,99,24,97,96,19,25,39,79,3,8,19,41,63,20,57,37,3,18,2,52,1,28,13,67,18,62,46,72,93,30,10,12,35,7,36,82 - false
+const formatDate = date => new Date(date).toLocaleDateString();
+false / banana
+console.log(getRandomString());
+
+90 / apple
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const getRandomSubset = (array, size) => array.slice(0, size);
+apple + true
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+70,8,30,77,49,87,37,88,18,27,55,55,11,69,88,73,26,73,71,80,53,19,49,52,5,69,34,37,20,85,83,19,42,94,76,63,75,9,28,55,5,0,26,23,56,16,9,90,94,45,75,75,13,91,82,79,60,18,62,25,0,54,79,19,94,9,19,8,0,67,75,31,6,33,2,35,82,15,67,71,76,10,18,33,12,86,76,92,24,1,12,8,86 * false
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+7,67,88,44,52,80,64,39,43,40,1,8,26,48,11,81,56,5,68,56,86,30,79,35,86,53,87,20,32,17,16,9,43,92,99,32,38,42,2,92,46,91,18,23,75,72,41,91,65,59,76,48,38,91,12,65,68,52,6,58,34,67,32,67 / grape
+const isEven = num => num % 2 === 0;
+52 - orange
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+56 - 61,29,93,23,26,43,21,46,39,26,67,56,67,31,79,51,38,52,58,25,8,88,35,83,9,81,88,53,57,64,13,74,59,72,32,82,98,17,93,27,31,34,93,36,51,82,96,32,2
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+true + 88,63,59,25,34,19,94,51,39,54,32,32,8,38,83,83,46,21,82,29,16,75,92,28,93,64,31,64,88,80,84,87,97,28,1,88,71,83,54,52
+class MyClass { constructor() { this.property = getRandomString(); } }
+grape
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+banana / 61
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+45,7,16,71,50,54,81,9,11,1,60,17,31,66,30,55,19,50,67,42,75,65,66,39,25,4,27,58,42,56,30,77,70,69,62,43,68,5,98,15,62,93,98,68,38,18,19,4,29,91,2,2,18,33,30,39,74,56,27,74,82,87,33,31,37,71,66,68,21,72,53,99,90,96,42,53,9,29,67,83,15,21,48,18,10,88,33,48,15,70,97,12,33,87,74 * kiwi
+let result = performOperation(getRandomNumber(), getRandomNumber());
