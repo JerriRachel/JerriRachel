@@ -1,0 +1,77 @@
+grape
+
+function addNumbers(a, b) { return a + b; }
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const getRandomElement = array => array[getRandomIndex(array)];
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+orange
+
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+apple
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+grape - false
+const getRandomElement = array => array[getRandomIndex(array)];
+96 / 80
+const greet = name => `Hello, ${name}!`;
+
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+apple
+
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+orange
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+kiwi
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const randomNumber = getRandomNumber();
+
+31 + true
+const removeDuplicates = array => Array.from(new Set(array));
+97,90,40,22,27,95,80,14,42,4,24,60,25,81,74,63,27,48,94,39,71,90,47,40,37,6,44,29,45,17,24,74,93,67,52,56,13,38,13,69,53,62,12,27,5,93,46,12,0,55,81,98,24,6,86,47,41,26,51,65,62,26,92,15,30,37,17,88,64,58,31,9,1,79,74,95,87,36,52,43,83,78,4,86,20,1,83,66,14,20,48,92,12,78,84,42,21,36 - 71,90,80,56,92,89,66,97,24,60,87,12,40,60,27,39,53,74,70,8,14,55,40,63,81,32,24,36,88,26,7,35,30,80,57,43,62,31,15,8,90,83,92,54,44,88,50
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const getUniqueValues = array => [...new Set(array)];
+true - 30,22,33,38,28,35,26,48,49,14,81,21,13,70,48,64,36,32,49,40,46,61,75,17,75,38,35,62,89,42,15,3,43,34,69,93,40,76,81,85,80,10,98,1,60,45,16,88,86,70,56,53,34,78,89,88,58,93,62,11,19,61,21,98,79,81,77,72,1,4,19,90,23,1,82,87,9,82,59,21,72,49,14,41,95
+
+const multiply = (a, b) => a * b;
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+banana * 2
+
+const capitalizeString = str => str.toUpperCase();
+
+grape / apple
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const removeDuplicates = array => Array.from(new Set(array));
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+41,48,90,64,19,66,26,29,70,59,9,81,12,25,72,51,77,48,67,65,89,94,7,12,26,45,23,95,87,94,42,39,88,1,77,65,72,88,97,1,59,33,16,36,45,83,27,54,29,93,38,6,0,86,70 / true
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+2 / 49,40,69,64,98,29,53,58,88,26,35,81,60,87,59,20,79,7,91,86,93,71,62,71,11,24,38,28,46,30,67,78
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+false * false
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+false / 16
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+grape - grape
+let result = performOperation(getRandomNumber(), getRandomNumber());
